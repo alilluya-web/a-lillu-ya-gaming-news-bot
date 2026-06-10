@@ -2,7 +2,7 @@ name: Daily Gaming News Bot
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # каждые 5 минут для теста 
+    - cron: '0 8 * * *'  # каждый день в 11:00 МСК для теста 
   workflow_dispatch:  # ручной запуск
 
 jobs:
